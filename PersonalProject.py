@@ -42,11 +42,15 @@ if begin == "yes" or begin == "Yes" or begin == "YES":
             Q8 = input("\n\n\n                Do you often experience vomiting/nausea?: ")
             if Q8 == "yes" or Q8 == "Yes" or Q8 == "YES":
                 print (Foodpoisoning)
+                Q10 = input("\n\n\n           Do you pass more frequent stools than usual")
+                if Q10 == "yes" or Q10 == "Yes" or Q10 == "YES":
+                    print (Diarroheoa)
             else:
-                print(Diarrhoea)
+                Q9 = input("\n\n\n            link to asthma hayfever and arthritis")
         
 else:
     print("\n                                         THANKS FOR TRYING OUT THE DISEASE DIAGNOSTIC PROGRAM!")
  
+
 
  
