@@ -42,15 +42,28 @@ if begin == "yes" or begin == "Yes" or begin == "YES":
             Q8 = input("\n\n\n                Do you often experience vomiting/nausea?: ")
             if Q8 == "yes" or Q8 == "Yes" or Q8 == "YES":
                 print (Foodpoisoning)
-                Q10 = input("\n\n\n           Do you pass more frequent stools than usual")
+                Q10 = input("\n\n\n           Do you pass more frequent stools than usual?: ")
                 if Q10 == "yes" or Q10 == "Yes" or Q10 == "YES":
                     print (Diarroheoa)
             else:
-                Q9 = input("\n\n\n            link to asthma hayfever and arthritis")
+                Q9 = input("\n\n\n              Do you experience an itchy nose or eyes from time to time?: ")
+                if Q9 == "yes" or Q9 == "Yes" or Q9 == "YES":
+                    print (Hayfever)
+                else:
+                    Q11 = input("\n\n\n              Do you often experience breathlessness and/or coughing?: ")
+                    if Q11 == "yes" or Q11 == "Yes" or Q11 == "YES":
+                        print (Asthma)
+                    else:
+                        Q12 = input("\n\n\n              Do you have pain in your bones when performing exercise?: ")
+                        if Q12 == "yes" or Q12 == "Yes" or Q12 == "YES":
+                            print (Arthritis)
+                        else:
+                            print("Your disease is not in my database....Sorry!: ")
         
 else:
     print("\n                                         THANKS FOR TRYING OUT THE DISEASE DIAGNOSTIC PROGRAM!")
  
+
 
 
  
