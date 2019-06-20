@@ -31,7 +31,7 @@ if begin == "yes" or begin == "Yes" or begin == "YES":
         else:
             print(Whoopingcough)
     else:
-        Q3 = input("\n\n\n                Do you experience lack of energy from time to time?: ")
+        Q3 = input("\n\n\n                Do you experience lack of energy from time to time without any exercise?: ")
         if Q3 == "yes" or Q3 == "Yes" or Q3 == "YES":
             Q6 = input("\n\n\n                   Do you ever experience pins and needles?: ") 
             if Q6 == "yes" or Q6 == "Yes" or Q6 == "YES":
