@@ -12,16 +12,13 @@ B12defficency = "\n\n You most likely have ---- Vitamin B12 defficiency. This de
 print("\n                                                      WELCOME TO THE DISEASE DIAGNOSTICS PROGRAM")
 begin = input("\n                                      Would you like to begin?: ")
 if begin == "yes" or begin == "Yes" or begin == "YES":
-    print("\n\n\n                                   Choose one of the options below for all of the following question")
-    print("\n\n                                       YES")
-    print("\n                                       NO")
     Q1 = input("\n\n\n                              Do you have a runny/blocked nose?: ")
     if Q1 == "yes" or Q1 == "Yes" or Q1 == "YES":
-        Q2 = input("\n\n\n                          Do you sometimes experience high tempertures/Fever?: ")
+        Q2 = input("\n\n\n                           Do you sometimes experience high tempertures/Fever?: ")
         if Q2 == "yes" or Q2 == "Yes" or Q2 == "YES":
-            Q4 = input("\n\n\n                     Do you often experience sneezing or coughing?: ")
+            Q4 = input("\n\n\n                        Do you often experience sneezing or coughing?: ")
             if Q4 == "yes" or Q4 == "Yes" or Q4 == "YES":
-                Q5 = input("\n\n\n                    Do you have a sore throat?: ")
+                Q5 = input("\n\n\n                     Do you have a sore throat?: ")
                 if Q5 == "yes" or Q5 == "Yes" or Q5 == "YES":
                     print(Flu)
                 else:
@@ -31,37 +28,39 @@ if begin == "yes" or begin == "Yes" or begin == "YES":
         else:
             print(Whoopingcough)
     else:
-        Q3 = input("\n\n\n                Do you experience lack of energy from time to time without any exercise?: ")
+        Q3 = input("\n\n\n                              Do you experience muscle weakness?: ")
         if Q3 == "yes" or Q3 == "Yes" or Q3 == "YES":
-            Q6 = input("\n\n\n                   Do you ever experience pins and needles?: ") 
+            Q6 = input("\n\n\n                           Do you ever experience pins and needles?: ") 
             if Q6 == "yes" or Q6 == "Yes" or Q6 == "YES":
                 print(B12defficency)
             else:
                 print(Irondefficency)
         else:
-            Q8 = input("\n\n\n                Do you often experience vomiting/nausea?: ")
+            Q8 = input("\n\n\n                            Do you often experience vomiting/nausea?: ")
             if Q8 == "yes" or Q8 == "Yes" or Q8 == "YES":
                 print (Foodpoisoning)
-                Q10 = input("\n\n\n           Do you pass more frequent stools than usual?: ")
+                Q10 = input("\n\n\n                        Do you pass more frequent stools than usual?: ")
                 if Q10 == "yes" or Q10 == "Yes" or Q10 == "YES":
                     print (Diarroheoa)
             else:
-                Q9 = input("\n\n\n              Do you experience an itchy nose or eyes from time to time?: ")
+                Q9 = input("\n\n\n                          Do you experience an itchy nose or eyes from time to time?: ")
                 if Q9 == "yes" or Q9 == "Yes" or Q9 == "YES":
                     print (Hayfever)
                 else:
-                    Q11 = input("\n\n\n              Do you often experience breathlessness and/or coughing?: ")
+                    Q11 = input("\n\n\n                      Do you often experience breathlessness and/or coughing?: ")
                     if Q11 == "yes" or Q11 == "Yes" or Q11 == "YES":
                         print (Asthma)
                     else:
-                        Q12 = input("\n\n\n              Do you have pain in your bones when performing exercise?: ")
+                        Q12 = input("\n\n\n                    Do you have pain in your bones when performing exercise?: ")
                         if Q12 == "yes" or Q12 == "Yes" or Q12 == "YES":
                             print (Arthritis)
                         else:
-                            print("Your disease is not in my database....Sorry!: ")
+                            print("\n\n\n                       I GIVE UP!! Your disease is not in my database....!: ")
         
 else:
     print("\n                                         THANKS FOR TRYING OUT THE DISEASE DIAGNOSTIC PROGRAM!")
+ 
+
  
 
 
